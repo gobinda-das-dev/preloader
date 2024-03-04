@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    position: relative;
+}
+
+.loader {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    background-color: #111;
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.loader p {
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.loader h1 {
+    font-size: 9vw;
+    text-align: right;
+    overflow: hidden;
+}
+
+
